@@ -69,7 +69,7 @@ const JavaScript = ({ navigateTo }) => (
         <p>JavaScript example:</p>
         <a href="https://www.programiz.com/javascript/online-compiler/"><img src="https://media.discordapp.net/attachments/1232678763658084362/1233150717171073154/image.png?ex=662cb559&is=662b63d9&hm=0fe1bbf1b4d576a2c74d4c6824f55b020cde4579f6ba09d5ed7fc97a3e8ae6ee&=&format=webp&quality=lossless" alt="Click to check out JavaScript examples"></img></a>
         <a href="https://www.javascript.com/"><img src="https://cdn.discordapp.com/attachments/1181237953234731053/1233341313017974884/JavaScript-logo.png?ex=662cbe1b&is=662b6c9b&hm=14e344bd09afb0b761d0b86a6f5227d4e50d1ab763dbe0e3f9ca1a469f803fba&" alt="Try JavaScript yourself" width="250" height="250"></img></a>
-        <button onClick={() => navigateTo('/')}>Go back</button>
+        <button onClick={() => navigateTo('/')}><img src="https://media.discordapp.net/attachments/1181237953234731053/1233347931889991680/image01.png?ex=662cc445&is=662b72c5&hm=7f220e44ec658468452a340182b9d4d9f0f1b7a2b210ee03588f1de5482ada0f&=&format=webp&quality=lossless" border="0" alt="Go Back" width="100" height="40"></img></button>
     </div>
 );
 
@@ -82,7 +82,7 @@ const Python = ({ navigateTo }) => (
         <p>Python example:</p>
         <a href="https://www.programiz.com/python-programming/online-compiler/"><img src="https://media.discordapp.net/attachments/1232678763658084362/1233150177695764580/image.png?ex=662cb4d9&is=662b6359&hm=3818cfe57fea0a11e44f1eb059e69d509790796cdb5bfd56891969ec3fbb8a82&=&format=webp&quality=lossless" alt="Click to check out Python examples"></img></a>   
         <a href="https://www.python.org/"><img src="https://cdn.discordapp.com/attachments/1181237953234731053/1233343650046545963/1200px-Python_logo_51.png?ex=662cc048&is=662b6ec8&hm=d2c6d19bcdb608433ee1fea4eb0561f64f586c8f0b049b26db19707f48eaca46&" alt="Try Python yourself" width="250" height="250"></img></a>
-        <button onClick={() => navigateTo('/')}>Go back</button>
+        <button onClick={() => navigateTo('/')}><img src="https://media.discordapp.net/attachments/1181237953234731053/1233347931889991680/image01.png?ex=662cc445&is=662b72c5&hm=7f220e44ec658468452a340182b9d4d9f0f1b7a2b210ee03588f1de5482ada0f&=&format=webp&quality=lossless" border="0" alt="Go Back" width="100" height="40"></img></button>
     </div>
 );
 const Java = ({ navigateTo }) => (
@@ -94,7 +94,7 @@ const Java = ({ navigateTo }) => (
       <p>Java example:</p>
       <a href="https://www.programiz.com/java-programming/online-compiler/"><img src="https://media.discordapp.net/attachments/1232678763658084362/1233150428322201721/image.png?ex=662cb514&is=662b6394&hm=21d9b8e07305052c75b991bdb1f35d5048c28e89e36d1c1bcd215dc5eeed4616&=&format=webp&quality=lossless" alt="Click to check out Java examples"></img></a>
       <a href="https://www.java.com/en/"><img src="https://media.discordapp.net/attachments/1181237953234731053/1233343847178960916/free-java-60-1174953.png?ex=662cc077&is=662b6ef7&hm=c35147f17f73abd01b50de6f7140c4692397d50239f131113d1a779a79429c7a&=&format=webp&quality=lossless" alt="Try Java yourself" width="250" height="250"></img></a>
-      <button onClick={() => navigateTo('/')}>Go back</button>
+      <button onClick={() => navigateTo('/')}><img src="https://media.discordapp.net/attachments/1181237953234731053/1233347931889991680/image01.png?ex=662cc445&is=662b72c5&hm=7f220e44ec658468452a340182b9d4d9f0f1b7a2b210ee03588f1de5482ada0f&=&format=webp&quality=lossless" border="0" alt="Go Back" width="100" height="40"></img></button>
   </div>
 );
 const CSharp = ({ navigateTo }) => (
@@ -106,7 +106,7 @@ const CSharp = ({ navigateTo }) => (
       <p>C# example:</p>
       <a href="https://www.programiz.com/csharp-programming/online-compiler/#google_vignette"><img src="https://media.discordapp.net/attachments/1232678763658084362/1233149860107124867/image.png?ex=662cb48d&is=662b630d&hm=b12a0ec81fa48aed3f2ecb00e3950435dff174bed8900c1bbdecf4a49a2ba602&=&format=webp&quality=lossless" alt="Click to check out C# examples"></img></a>
       <a href="https://dotnet.microsoft.com/en-us/languages/csharp"><img src="https://media.discordapp.net/attachments/1181237953234731053/1233343962517868586/63065002cd563e1cd1cead28_eaadfe64.png?ex=662cc093&is=662b6f13&hm=7c44ef59e0d441a78dacba9f15fed2981ed6bab69d0f21ec6064fc315fb15252&=&format=webp&quality=lossless&width=630&height=630" alt="Try CSharp yourself" width="250" height="250"></img></a>
-      <button onClick={() => navigateTo('/')}>Go back</button>
+      <button onClick={() => navigateTo('/')}><img src="https://media.discordapp.net/attachments/1181237953234731053/1233347931889991680/image01.png?ex=662cc445&is=662b72c5&hm=7f220e44ec658468452a340182b9d4d9f0f1b7a2b210ee03588f1de5482ada0f&=&format=webp&quality=lossless" border="0" alt="Go Back" width="100" height="40"></img></button>
   </div>
 );
 const NotFoundPage = () => <h1>404 - Not Found</h1>;
