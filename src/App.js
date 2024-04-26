@@ -19,6 +19,7 @@ function App() {
 
     return (
         <div>
+            <h1>PRLEKI - Seminarska naloga</h1>
             <p>Avtorji: Aljaž Smodiš, Blaž Sekol, Jernej Štern, Bine Varžič</p>
             <button onClick={() => navigateTo('/')}>Home</button>
             <button onClick={() => navigateTo('/JavaScript')}>JavaScript</button>
